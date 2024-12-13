@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains #varias accione
 import time #altos en segundos
 from selenium.webdriver.common.keys import Keys
 
-Service =Service("botTaller/chromedriver.exe") #ruta del driver
+Service =Service("./chromedriver.exe") #ruta del driver
 bot_Taller = webdriver.Chrome(service=Service)#inciciar el bot
 bot_Taller.maximize_window()#abra chrome abra la pestalla completa
 
