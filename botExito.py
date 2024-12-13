@@ -54,9 +54,7 @@ time.sleep(2)
 lugar_destino_enter.send_keys(Keys.ENTER)
 time.sleep(2)
 
-#muestra el calendario
 muestra_calendario = bot_Taller.find_element(By.XPATH,'/html/body/form/div[3]/div/div[2]/article/div/div[1]/div/div[1]/div/div/div[2]/div[2]/div[3]/div[2]/div[1]/div/div/div[2]/div/input')
 time.sleep(2)
 muestra_calendario.click()
 time.sleep(2)
-
